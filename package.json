@@ -1,0 +1,23 @@
+{
+    "name": "pyksdl2",
+    "version": "0.0.1",
+    "main": "./lib/pyksdl2",
+    "author": "Paul Tan <pyokagan@gmail.com>",
+    "keywords": ["sdl", "sdl2"],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pyokagan/node-pyksdl2.git"
+    },
+    "scripts": {
+        "install": "node-gyp rebuild"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/pyokagan/node-pyksdl2/blob/master/LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "bindings": "*"
+    }
+}

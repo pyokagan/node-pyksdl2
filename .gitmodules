@@ -1,0 +1,6 @@
+[submodule "node_modules/bindings"]
+	path = node_modules/bindings
+	url = git://github.com/TooTallNate/node-bindings.git
+[submodule "deps/libsdl2/SDL"]
+	path = deps/libsdl2/SDL
+	url = https://github.com/pyokagan/mirror-sdl.git
