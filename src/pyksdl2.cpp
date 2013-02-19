@@ -323,7 +323,7 @@ namespace sdl2 {
 
 extern void InitConstants(Handle<Object> target);
 
-void Init(Handle<Object> target) {
+void InitModule(Handle<Object> target) {
     sdl2::Window::Init(target);
     sdl2::GLContext::Init(target);
     InitConstants(target);
@@ -346,4 +346,4 @@ void Init(Handle<Object> target) {
     std::atexit(SDL_Quit);
 }
 
-NODE_MODULE(pyksdl2, Init);
+NODE_MODULE(pyksdl2, InitModule);

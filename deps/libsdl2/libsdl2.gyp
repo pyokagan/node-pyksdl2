@@ -121,9 +121,9 @@
             'SDL/src/events/SDL_windowevents.c', 
             'SDL/src/joystick/SDL_gamecontroller.c'
           ],
-          'include_dirs': ['SDL/include', '<!(python getdxsdkdir.py)'],
+          'include_dirs': ['SDL/include', '<!(python getdxsdkdir.py)Include/'],
           'direct_dependent_settings': {
-            'include_dirs': ['SDL/include'],
+            'include_dirs': ['SDL/include', '<!(python getdxsdkdir.py)Include/'],
             'libraries': ['-lwinmm.lib', '-limm32.lib', '-lversion.lib']
           },
         },
